@@ -106,7 +106,6 @@ function ListOfFilms(): JSX.Element {
       if (response.status === 200) {
         setList(response.data.docs);
         setTotalPages(response.data.pages);
-        console.log(import.meta)
       } else {
         console.log("Не удалось получить данные, status:", response.status);
       }
