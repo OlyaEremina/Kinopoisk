@@ -1,0 +1,13 @@
+.active {
+  color: rgb(78, 160, 215);
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.pagination {
+  padding-top: 50px;
+}

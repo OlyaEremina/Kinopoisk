@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 60%;
+}
+
+.filterButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 60%;
+  margin: 25px 0 25px 0;
+}
+
+.genreButton {
+  background-color: rgb(83, 81, 81);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+.active {
+  background-color: #8bbff7;
+  color: white;
+}
+
+.img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  border-top: 1px solid white;
+}
+
+.list:hover {
+  background-color: rgb(87, 82, 82);
+}
+
+.miniCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 25px;
+  padding: 15px 0 0 50px;
+}
+
+.title {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
